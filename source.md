@@ -1,97 +1,97 @@
 # Liquid.qihl README
 
-Liquid.qihl'ye hoşgeldiniz! Bu döküman sunucu ile etkileşimde bulunabilmeniz için gereken tüm bilgileri içerir. Lütfen `#help-desk` (#yardım-masası) kanalına danışmadan önce bu dökümanın tamamını okuyun, bu sayede yetkililerin vaktini boşa harcamamış olursunuz. Teşekkürler.
+Liquid.qihl'ye hoÅŸgeldiniz! Bu dÃ¶kÃ¼man sunucu ile etkileÅŸimde bulunabilmeniz iÃ§in gereken tÃ¼m bilgileri iÃ§erir. LÃ¼tfen `#help-desk` (#yardÄ±m-masasÄ±) kanalÄ±na danÄ±ÅŸmadan Ã¶nce bu dÃ¶kÃ¼manÄ±n tamamÄ±nÄ± okuyun, bu sayede yetkililerin vaktini boÅŸa harcamamÄ±ÅŸ olursunuz. TeÅŸekkÃ¼rler.
 
-## İçindekiler
+## Ä°Ã§indekiler
 
 1. [Kurallar](#kurallar)  
 2. [Dereceler (Ranklar)](#dereceler-ranklar)  
-	2.1 [Derece Kontrolü](#derece-kontrolü)  
+	2.1 [Derece KontrolÃ¼](#derece-kontrolÃ¼)  
 3. [Oyuncu Rapor Etme](#oyuncu-rapor-etme)  
-4. [Lobi Bulma, Katılma ve Kurma](#lobi-bulma-katılma-ve-kurma)  
-5. [Başlangıç](#başlangıç)
+4. [Lobi Bulma, KatÄ±lma ve Kurma](#lobi-bulma-katÄ±lma-ve-kurma)  
+5. [BaÅŸlangÄ±Ã§](#baÅŸlangÄ±Ã§)
 
 ## Kurallar
-Kuralları ihlal etmek **BAN** sebebidir.
+KurallarÄ± ihlal etmek **BAN** sebebidir.
 
-1. Hakaret etmek, izinsiz başkalarının bilgilerini paylaşmak ve DDOS atmak yasaktır.
-2. Discord Hizmet Koşullarını ihlal etmek yasaktır.
-3. Kendi derecenden yüksek lobilere girmek yasaktır. Girmeniz halinde **oyun içerisinde** `-refresh` yazarak lobiden ayrılmak zorundasınız. Bu kural sadece Chessbot ile kurulan lobiler için geçerlidir.
-4. Lobi şifrelerini Discord lobi kanallarında paylaşmak yasaktır.
-5. Lobi şifrelerini paylaşmak yasaktır (lobiye parti yolu ile girmek de dahil).
-6. Sunucuya hangi Steam hesabı ile kayıtlıysanız o hesap ile lobiye katılmak zorundasınız.
+1. Hakaret etmek, izinsiz baÅŸkalarÄ±nÄ±n bilgilerini paylaÅŸmak ve DDOS atmak yasaktÄ±r.
+2. Discord Hizmet KoÅŸullarÄ±nÄ± ihlal etmek yasaktÄ±r.
+3. Kendi derecenden yÃ¼ksek lobilere girmek yasaktÄ±r. Girmeniz halinde **oyun iÃ§erisinde** `-refresh` yazarak lobiden ayrÄ±lmak zorundasÄ±nÄ±z. Bu kural sadece Chessbot ile kurulan lobiler iÃ§in geÃ§erlidir.
+4. Lobi ÅŸifrelerini Discord lobi kanallarÄ±nda paylaÅŸmak yasaktÄ±r.
+5. Lobi ÅŸifrelerini paylaÅŸmak yasaktÄ±r (lobiye parti yolu ile girmek de dahil).
+6. Sunucuya hangi Steam hesabÄ± ile kayÄ±tlÄ±ysanÄ±z o hesap ile lobiye katÄ±lmak zorundasÄ±nÄ±z.
 
 ## Dereceler (Ranklar)
-Lobiler bu derecelere göre belirlenir:
+Lobiler bu derecelere gÃ¶re belirlenir:
 
-- Beginner (Başlangıç Düzeyi): `Unknown`+ (Bilinmeyen+)
-- Intermediate (Orta Düzey): `Bishop-1`+ (Fil-1+)
-- Advanced (Gelişmiş): `Bishop-6`+ (Fil-6+)
+- Beginner (BaÅŸlangÄ±Ã§ DÃ¼zeyi): `Unknown`+ (Bilinmeyen+)
+- Intermediate (Orta DÃ¼zey): `Bishop-1`+ (Fil-1+)
+- Advanced (GeliÅŸmiÅŸ): `Bishop-6`+ (Fil-6+)
 - Expert (Uzman): `Rook-1`+ (Kale-1+)
 - Master (Usta): `Rook-5`+ (Kale-5+)
 
-### Derece Kontrolü
-Bu komutları `#chessbot-commands` kanalında kullanın, `#help-desk` kanalında **değil**.
+### Derece KontrolÃ¼
+Bu komutlarÄ± `#chessbot-commands` kanalÄ±nda kullanÄ±n, `#help-desk` kanalÄ±nda **deÄŸil**.
 
-- Dereceyi kontrol etme ve güncelleme komutu (bu komutu derece atlayınca yeni roller almak için kullanın): `!rank`
-- Başkalarının derecelerini kontrol etme komutu (`[]` olmadan): `!rank [@DiscordKullanıcıAdı#0000]` 
+- Dereceyi kontrol etme ve gÃ¼ncelleme komutu (bu komutu derece atlayÄ±nca yeni roller almak iÃ§in kullanÄ±n): `!rank`
+- BaÅŸkalarÄ±nÄ±n derecelerini kontrol etme komutu (`[]` olmadan): `!rank [@DiscordKullanÄ±cÄ±AdÄ±#0000]` 
              
 ## Oyuncu Rapor Etme
 
-Eğer bulunduğunuz derece güncel değilse (mesela `Knight(At)-9`'sunuz ve hala `Intermediate` (Orta Düzey) lobilere girebiliyorsanız) derecenizin yenilenmesini bekleyip yeni bir oyuna başlamadan önce derecenizi güncellemelisiniz. Eğer derecenizi güncelledikten sonra herhangi bir lobiye girerseniz ve dereceniz lobi limitinin altında ise (`Bishop-1`(Fil-1)+ lobisindesiniz fakat sizin dereceniz bu limite yetmiyorsa) **oyun içinde** `-refresh` yazarak lobiden ayrılmalısınız. Lobiden ayrılmamanız halinde sunucudan yasaklanırsınız.
+EÄŸer bulunduÄŸunuz derece gÃ¼ncel deÄŸilse (mesela `Knight(At)-9`'sunuz ve hala `Intermediate` (Orta DÃ¼zey) lobilere girebiliyorsanÄ±z) derecenizin yenilenmesini bekleyip yeni bir oyuna baÅŸlamadan Ã¶nce derecenizi gÃ¼ncellemelisiniz. EÄŸer derecenizi gÃ¼ncelledikten sonra herhangi bir lobiye girerseniz ve dereceniz lobi limitinin altÄ±nda ise (`Bishop-1`(Fil-1)+ lobisindesiniz fakat sizin dereceniz bu limite yetmiyorsa) **oyun iÃ§inde** `-refresh` yazarak lobiden ayrÄ±lmalÄ±sÄ±nÄ±z. Lobiden ayrÄ±lmamanÄ±z halinde sunucudan yasaklanÄ±rsÄ±nÄ±z.
 
-Oyuncular sizin derecelerinizi etkilese de, aranızdaki 1 derece fark sizi etkilemiycektir. Genellikle böyle durumlar bazı hatalardan dolayı meydana gelir. Bunu büyütüp olay çıkarmanın manası yok. Tabi bu durum bunu yapabileceğiniz anlamına gelmez. Bu yüzden lütfen dikkatli olun.
+Oyuncular sizin derecelerinizi etkilese de, aranÄ±zdaki 1 derece fark sizi etkilemiycektir. Genellikle bÃ¶yle durumlar bazÄ± hatalardan dolayÄ± meydana gelir. Bunu bÃ¼yÃ¼tÃ¼p olay Ã§Ä±karmanÄ±n manasÄ± yok. Tabi bu durum bunu yapabileceÄŸiniz anlamÄ±na gelmez. Bu yÃ¼zden lÃ¼tfen dikkatli olun.
 
-Eğer bir oyuncu kuralları çiğnemesi halinde `-refresh` yazarak lobiden ayrılmıyor ise: Bunu ekran görüntüsünü, kuralları çiğneyen oyuncunun Steam Profilinin URL'sini ve lobi kurulduktan sonra ChessBot Lobi mesajının (lobi kurucusunun `!start` yazdıktan sonra çıkan mesajın) ekran görüntüsünü `#player-reports` (#oyuncu-raporları) yazı kanalına atın. Eğer bu üç bilginin tamamını karşılayamıyorsanız ne yazık ki raporunuz geçerli sayılmayacaktır. Bu durum ChessBot'un çalışmadığı yazı kanallarında (`#intermediate-lobbies-no-bot` vb.) kurulan lobiler için **geçerli değildir**. ChessBot ile kurulmayan lobilerdeki dereceler ile ilgilenmiyoruz. Eğer bir oyuncuyu farklı bir nedenden dolayı raporlamak istiyorsanız, raporlamak istediğiniz oyunucuyu ve nedenini `#player-reports` (#oyuncu-raporları) yazı kanalında belirtebilirsiniz.
+EÄŸer bir oyuncu kurallarÄ± Ã§iÄŸnemesi halinde `-refresh` yazarak lobiden ayrÄ±lmÄ±yor ise: Bunu ekran gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼, kurallarÄ± Ã§iÄŸneyen oyuncunun Steam Profilinin URL'sini ve lobi kurulduktan sonra ChessBot Lobi mesajÄ±nÄ±n (lobi kurucusunun `!start` yazdÄ±ktan sonra Ã§Ä±kan mesajÄ±n) ekran gÃ¶rÃ¼ntÃ¼sÃ¼nÃ¼ `#player-reports` (#oyuncu-raporlarÄ±) yazÄ± kanalÄ±na atÄ±n. EÄŸer bu Ã¼Ã§ bilginin tamamÄ±nÄ± karÅŸÄ±layamÄ±yorsanÄ±z ne yazÄ±k ki raporunuz geÃ§erli sayÄ±lmayacaktÄ±r. Bu durum ChessBot'un Ã§alÄ±ÅŸmadÄ±ÄŸÄ± yazÄ± kanallarÄ±nda (`#intermediate-lobbies-no-bot` vb.) kurulan lobiler iÃ§in **geÃ§erli deÄŸildir**. ChessBot ile kurulmayan lobilerdeki dereceler ile ilgilenmiyoruz. EÄŸer bir oyuncuyu farklÄ± bir nedenden dolayÄ± raporlamak istiyorsanÄ±z, raporlamak istediÄŸiniz oyunucuyu ve nedenini `#player-reports` (#oyuncu-raporlarÄ±) yazÄ± kanalÄ±nda belirtebilirsiniz.
     
-## Lobi Bulma, Katılma ve Kurma
+## Lobi Bulma, KatÄ±lma ve Kurma
 
-Lobiler ChessBot ile düzenlenir. ChessBot ile etkileşime girebilmek için DM'lerinizi (direkt mesajlarınızı) herkese açık hale getirmelisiniz veya buna eşdeğer bir ayar yapmalısnız. ChessBot size katıldığınız lobinin şifresini DM'den atacaktır. Şifreyi kopyalayın > Auto Chess'i açın > Lobby List (Lobi Listesi) > Find Private Lobbies (Özel Lobi Bul) > Şifreyi yapıştır > Search (Ara) > Join Lobby (Lobiye Katıl). Eğer herhangi bir lobi gözükmüyorsa, lobi henüz kurulmamış olabilir. Sağ üst köşedeki `refresh` (Yenile) butonuna tıklayarak lobileri yenileyebilirsiniz. Oyuncular lobileri herhangi bir bölgeden kurabilir, bu yüzden lobiye katılmadan önce lobinin bölgesine bakarak sizin için uygun olup olmadığını kontrol etmeyi unutmayın.  Aşağıdaki komutları **sadece**  `#[rank(derece)]-lobbies` (lobi kanalları)'nda kullanın (`#master-lobbies` gibi): (`[]` olmadan)
+Lobiler ChessBot ile dÃ¼zenlenir. ChessBot ile etkileÅŸime girebilmek iÃ§in DM'lerinizi (direkt mesajlarÄ±nÄ±zÄ±) herkese aÃ§Ä±k hale getirmelisiniz veya buna eÅŸdeÄŸer bir ayar yapmalÄ±snÄ±z. ChessBot size katÄ±ldÄ±ÄŸÄ±nÄ±z lobinin ÅŸifresini DM'den atacaktÄ±r. Åifreyi kopyalayÄ±n > Auto Chess'i aÃ§Ä±n > Lobby List (Lobi Listesi) > Find Private Lobbies (Ã–zel Lobi Bul) > Åifreyi yapÄ±ÅŸtÄ±r > Search (Ara) > Join Lobby (Lobiye KatÄ±l). EÄŸer herhangi bir lobi gÃ¶zÃ¼kmÃ¼yorsa, lobi henÃ¼z kurulmamÄ±ÅŸ olabilir. SaÄŸ Ã¼st kÃ¶ÅŸedeki `refresh` (Yenile) butonuna tÄ±klayarak lobileri yenileyebilirsiniz. Oyuncular lobileri herhangi bir bÃ¶lgeden kurabilir, bu yÃ¼zden lobiye katÄ±lmadan Ã¶nce lobinin bÃ¶lgesine bakarak sizin iÃ§in uygun olup olmadÄ±ÄŸÄ±nÄ± kontrol etmeyi unutmayÄ±n.  AÅŸaÄŸÄ±daki komutlarÄ± **sadece**  `#[rank(derece)]-lobbies` (lobi kanallarÄ±)'nda kullanÄ±n (`#master-lobbies` gibi): (`[]` olmadan)
 
-- `!list` kanaldaki mevcut lobileri görmek için.
-- `!join` bir `#[rank(derece)]-lobbies[region(bölge)]` kanalındayken lobilere katılmak için (`#intermediate-lobbies-naw` vb.).
-- `!join [region(bölge)]` (`[]` olmadan) bölgesi olmayan yazı kanallarında lobilere katılmak için (`#beginner-lobbies` vb.).
-	- Bölgeler: `NA` (Kuzey Amerika), `SA` (Güney Avustralya), `EUE` (Doğu Avrupa), `EUW` (Batı Avrupa), `RU` (Rusya), `SEA`, ve `OCE`
-- `!join [@DiscordKulllanıcıAdı#0000]` (`[]` olmadan) özellikle bir oyuncunun lobisine katılmak için.
-- `!leave` lobiden ayrılmak için.
-- `!lobby [@DiscordKullanıcıAdı#0000]` (`[]` olmadan) oyuncuların lobilerindeki oyuncuları görmek için.
-- `!host` bir `#[rank(derece)]-lobbies[region(bölge)]` kanalındayken lobi kurmak için (`#intermediate-lobbies-naw` vb.).
-- `!host [region]` (`[]` olmadan) bölgesi olmayan yazı kanallarında lobi kurmak içn (`#beginner-lobbies` vb.).
-- `!host [region(bölge)] [rank(derece)-x]` lobi derece liminiti belirlemek için (`[]` olmadan. `rank(derece)-x` sizin derecenizden -2 seviye düşük olmalıdır).
-- `!lobby` lobinizdeki oyuncuları görmek için.
-- `!kick [@DiscordKullanıcıAdı#0000]` (`[]` olmadan) lobinizden herhangi bir oyunu atmak için.
-- `!start` lobiniz tamamen dolduğunda oyunu başlatıp lobiyi kapatmak için (8/8 oyuncu). Lütfen kullanmadan önce herkesin bağlandığından emin olun.
-- `!cancel` lobinizi iptal etmek için.
+- `!list` kanaldaki mevcut lobileri gÃ¶rmek iÃ§in.
+- `!join` bir `#[rank(derece)]-lobbies[region(bÃ¶lge)]` kanalÄ±ndayken lobilere katÄ±lmak iÃ§in (`#intermediate-lobbies-naw` vb.).
+- `!join [region(bÃ¶lge)]` (`[]` olmadan) bÃ¶lgesi olmayan yazÄ± kanallarÄ±nda lobilere katÄ±lmak iÃ§in (`#beginner-lobbies` vb.).
+	- BÃ¶lgeler: `NA` (Kuzey Amerika), `SA` (GÃ¼ney Avustralya), `EUE` (DoÄŸu Avrupa), `EUW` (BatÄ± Avrupa), `RU` (Rusya), `SEA`, ve `OCE`
+- `!join [@DiscordKulllanÄ±cÄ±AdÄ±#0000]` (`[]` olmadan) Ã¶zellikle bir oyuncunun lobisine katÄ±lmak iÃ§in.
+- `!leave` lobiden ayrÄ±lmak iÃ§in.
+- `!lobby [@DiscordKullanÄ±cÄ±AdÄ±#0000]` (`[]` olmadan) oyuncularÄ±n lobilerindeki oyuncularÄ± gÃ¶rmek iÃ§in.
+- `!host` bir `#[rank(derece)]-lobbies[region(bÃ¶lge)]` kanalÄ±ndayken lobi kurmak iÃ§in (`#intermediate-lobbies-naw` vb.).
+- `!host [region]` (`[]` olmadan) bÃ¶lgesi olmayan yazÄ± kanallarÄ±nda lobi kurmak iÃ§n (`#beginner-lobbies` vb.).
+- `!host [region(bÃ¶lge)] [rank(derece)-x]` lobi derece liminiti belirlemek iÃ§in (`[]` olmadan. `rank(derece)-x` sizin derecenizden -2 seviye dÃ¼ÅŸÃ¼k olmalÄ±dÄ±r).
+- `!lobby` lobinizdeki oyuncularÄ± gÃ¶rmek iÃ§in.
+- `!kick [@DiscordKullanÄ±cÄ±AdÄ±#0000]` (`[]` olmadan) lobinizden herhangi bir oyunu atmak iÃ§in.
+- `!start` lobiniz tamamen dolduÄŸunda oyunu baÅŸlatÄ±p lobiyi kapatmak iÃ§in (8/8 oyuncu). LÃ¼tfen kullanmadan Ã¶nce herkesin baÄŸlandÄ±ÄŸÄ±ndan emin olun.
+- `!cancel` lobinizi iptal etmek iÃ§in.
 
          
-## Başlangıç
-Lütfen başlamadan önce yukarıda yazan **her şeyi** okuduğunuzdan emin olun, bu sayede sunucu ile nasıl etkileşimde bulunabilceğinizi öğrenip yetkililerin vaktini boşa harcamamış olursunuz, teşekkürler. Sunucuya kaydolmak için veya ikinci bir Steam hesabı bağlamak için aşağıdaki adımları uygulayabilirsiniz (oyun içerisinde lobiye katıldığınız veya lobiyi kurduğunuz Steam hesabıyla oynamalısınız).
+## BaÅŸlangÄ±Ã§
+LÃ¼tfen baÅŸlamadan Ã¶nce yukarÄ±da yazan **her ÅŸeyi** okuduÄŸunuzdan emin olun, bu sayede sunucu ile nasÄ±l etkileÅŸimde bulunabilceÄŸinizi Ã¶ÄŸrenip yetkililerin vaktini boÅŸa harcamamÄ±ÅŸ olursunuz, teÅŸekkÃ¼rler. Sunucuya kaydolmak iÃ§in veya ikinci bir Steam hesabÄ± baÄŸlamak iÃ§in aÅŸaÄŸÄ±daki adÄ±mlarÄ± uygulayabilirsiniz (oyun iÃ§erisinde lobiye katÄ±ldÄ±ÄŸÄ±nÄ±z veya lobiyi kurduÄŸunuz Steam hesabÄ±yla oynamalÄ±sÄ±nÄ±z).
  
-1. Görünmez **olmadığınızdan** emin olun. Kullanıcı Ayarlarına tıklayın.
+1. GÃ¶rÃ¼nmez **olmadÄ±ÄŸÄ±nÄ±zdan** emin olun. KullanÄ±cÄ± AyarlarÄ±na tÄ±klayÄ±n.
 ![enter image description here](https://lh3.googleusercontent.com/BKWZi8LTdT8v6fdAQiwyLtOuR_jFj5CBjvxObViUGdM7F4jxnlGH3CxAfKgkP075SDZFcx0FvYY)
 
-2. Bağlantılara gidin ve Steam ikonuna tıklayın. 
+2. BaÄŸlantÄ±lara gidin ve Steam ikonuna tÄ±klayÄ±n. 
 ![enter image description here](https://lh3.googleusercontent.com/0BHECBR5G8obQXgH_J1IjqotC0jAQW2sXPBsFlngSYPPS4Pu_3LlAikr0Ls0WK8ymdb7ZbLhTkE)
 
-3. Oturum Aç'a tıklayın.  
+3. Oturum AÃ§'a tÄ±klayÄ±n.  
 ![enter image description here](https://lh3.googleusercontent.com/Kc5SWqhe_lUFGBwGMVxmi7g3YWbHH1rouljLqFYFy0GyRZq-ECmLzWCPYVErm5gCFsQjHw6K54M)
 
-4. Discord'daki Steam bağlantısının herkese açık olduğundan emin olun.
+4. Discord'daki Steam baÄŸlantÄ±sÄ±nÄ±n herkese aÃ§Ä±k olduÄŸundan emin olun.
 ![enter image description here](https://lh3.googleusercontent.com/XnuTe3xZWuJ0P9em1hM6a1ne9QsAFjFR_QEfi5ZVSOupezvNTh0ef5r58LsxJPCxskRoDyLJods)
 
-5. Bu linke tıklayın: <a href="http://autochessbot.vinthian.com" target="_blank">autochessbot.vinthian.com</a>. Steam ve Discord hesaplarının doğru olduğuna emin olduktan sonra Onayla'ya tıklayın.
+5. Bu linke tÄ±klayÄ±n: <a href="http://autochessbot.vinthian.com" target="_blank">autochessbot.vinthian.com</a>. Steam ve Discord hesaplarÄ±nÄ±n doÄŸru olduÄŸuna emin olduktan sonra Onayla'ya tÄ±klayÄ±n.
 ![enter image description here](https://lh3.googleusercontent.com/08ZHOcSVKHEjHixMc53zFEc-zsw9fckQgiyG_T6dnNpot8F3vjmseO5Hoeiye8HwmudNYGawLCY) 
 
-6. Doğru `Steam64ID`'si olduğuna emin olun ve  hesabınıza tıklayın.  
+6. DoÄŸru `Steam64ID`'si olduÄŸuna emin olun ve  hesabÄ±nÄ±za tÄ±klayÄ±n.  
 ![enter image description here](https://lh3.googleusercontent.com/W2TnP6mdOc0P_jULKu-wQZvYr8-bNwszT-lY19XgFT5p5C19jBZOjB3yVd0G6Tj-cchs4ufHogE)
 
-7. Tebrikler, onaylandınız! Artık Discord'da yeni kanallar görebilirsiniz (sol tarafta `#beginner-lobbies` (Başlangıç Lobileri) vb.). Eğer bişeyler yanlış gittiyse, aynı işlemleri tekrardan uygulayın ve bunu yaparken doğru Discord hesabını eşleştirdiğinize ve Discord hesabınızın görünmez olmadığına emin olun. Eğer bunlar da işe yaramazsa `#help-desk` (#yardım-masası) kanalından destek alabilirsiniz.
+7. Tebrikler, onaylandÄ±nÄ±z! ArtÄ±k Discord'da yeni kanallar gÃ¶rebilirsiniz (sol tarafta `#beginner-lobbies` (BaÅŸlangÄ±Ã§ Lobileri) vb.). EÄŸer biÅŸeyler yanlÄ±ÅŸ gittiyse, aynÄ± iÅŸlemleri tekrardan uygulayÄ±n ve bunu yaparken doÄŸru Discord hesabÄ±nÄ± eÅŸleÅŸtirdiÄŸinize ve Discord hesabÄ±nÄ±zÄ±n gÃ¶rÃ¼nmez olmadÄ±ÄŸÄ±na emin olun. EÄŸer bunlar da iÅŸe yaramazsa `#help-desk` (#yardÄ±m-masasÄ±) kanalÄ±ndan destek alabilirsiniz.
 ![enter image description here](https://lh3.googleusercontent.com/1uOA1tSQgY02_in_NJZ0ymz64tDwu-mlhHWaqUkHVlt37S-lEx80g7y_hu_9LHoRt0I9_g1Yoa8)
 
-8. `#chessbot-commands` kanalında  `!updateroles` komutunu kullanarak rollerinizi güncelleyebilirsiniz.
+8. `#chessbot-commands` kanalÄ±nda  `!updateroles` komutunu kullanarak rollerinizi gÃ¼ncelleyebilirsiniz.
     
-9. `#league-region` (#lobi-bölgesi) kanalındaki yazıya bulunduğunuz bölgenin emojisi ile tepki vererek herhangi bir lobi kurulduğunda bundan bildirim ile haberdar olabilirsiniz. Eğer bundan rahatsız oluyorsanız, tepkinizi geri alabilirsiniz.
+9. `#league-region` (#lobi-bÃ¶lgesi) kanalÄ±ndaki yazÄ±ya bulunduÄŸunuz bÃ¶lgenin emojisi ile tepki vererek herhangi bir lobi kurulduÄŸunda bundan bildirim ile haberdar olabilirsiniz. EÄŸer bundan rahatsÄ±z oluyorsanÄ±z, tepkinizi geri alabilirsiniz.
 
-10. İyi Eğlenceler!
+10. Ä°yi EÄŸlenceler!
 
-**Çevirmen Moderatör:** @omrtozd#6320
+**Ã‡evirmen ModeratÃ¶r:** @omrtozd#6320

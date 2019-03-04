@@ -11,10 +11,10 @@ const md = new MarkdownIt({
   slugify: uslug
 });
 
-const mdContents = fs.readFileSync("source.md", "latin1");
+const mdContents = fs.readFileSync("source.md", "utf-8");
 const mdHTML = md.render(mdContents);
 
-const template = fs.readFileSync("template.html", "latin1");
+const template = fs.readFileSync("template.html", "utf-8");
 var finalHTML = template.replace(/{MD-RESULT}/g, mdHTML);
 
 fs.writeFileSync("index.html", finalHTML, { flag: "w" });
