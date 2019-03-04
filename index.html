@@ -1,119 +1,118 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Liquid.qihl ReadMe</title>
-    <link rel="shortcut icon" href="./favicon.ico" />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      rel="stylesheet"
-      href="https://liquidqihl.github.io/readme-files/dist/styles.min.css"
-    />
-  </head>
-  <body>
-    <div id="md-container"><h1 id="liquidqihl-readme">Liquid.qihl README</h1>
-<p>Welcome to Liquid.qihl! This document contains everything you need to know to interact with this server. Please read all of it before posting to <code>#help-desk</code>, it will save you and the staff time and questions. Thank you.</p>
-<h2 id="contents">Contents</h2>
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>source.md</title>
+  <link rel="stylesheet" href="https://stackedit.io/style.css" />
+</head>
+
+<body class="stackedit">
+  <div class="stackedit__html"><h1 id="liquid.qihl-readme">Liquid.qihl README</h1>
+<p>Liquid.qihl’ye hoşgeldiniz! Bu döküman sunucu ile etkileşimde bulunabilmeniz için gereken tüm bilgileri içerir. Lütfen <code>#help-desk</code> (#yardım-masası) kanalına danışmadan önce bu dökümanın tamamını okuyun, bu sayede yetkililerin vaktini boşa harcamamış olursunuz. Teşekkürler.</p>
+<h2 id="i̇çindekiler">İçindekiler</h2>
 <ol>
-<li><a href="#rules">Rules</a></li>
-<li><a href="#ranks">Ranks</a><br>
-2.1 <a href="#checking-ranks">Checking Ranks</a></li>
-<li><a href="#reporting-players">Reporting Players</a></li>
-<li><a href="#finding-joining-and-hosting-games">Finding, Joining, and Hosting Games</a></li>
-<li><a href="#get-started">Get Started</a></li>
+<li><a href="#kurallar">Kurallar</a></li>
+<li><a href="#dereceler-ranklar">Dereceler (Ranklar)</a><br>
+2.1 <a href="#derece-kontrol%C3%BC">Derece Kontrolü</a></li>
+<li><a href="#oyuncu-rapor-etme">Oyuncu Rapor Etme</a></li>
+<li><a href="#lobi-bulma-kat%C4%B1lma-ve-kurma">Lobi Bulma, Katılma ve Kurma</a></li>
+<li><a href="#ba%C5%9Flang%C4%B1%C3%A7">Başlangıç</a></li>
 </ol>
-<h2 id="rules">Rules</h2>
-<p>Breaking these rules will result in a being <strong>BANNED</strong>.</p>
+<h2 id="kurallar">Kurallar</h2>
+<p>Kuralları ihlal etmek <strong>BAN</strong> sebebidir.</p>
 <ol>
-<li>Do not threaten, harass, dox, or ddos.</li>
-<li>Do not break Discord ToS.</li>
-<li>Do not play in lobbies when under the minimum rank. You must forfeit (<code>-refresh</code> in game  <strong>NOT</strong> in Discord). Only applies to Chessbot games (not in <code>#intermediate-lobbies-no-bot</code>, etc).</li>
-<li>Do not post lobby passwords in Chessbot lobbies.</li>
-<li>Do not share Chessbot passwords (this includes joining a Chessbot lobby as a party).</li>
-<li>Use the same Steam account in game as when you join/host a lobby in Discord.</li>
+<li>Hakaret etmek, izinsiz başkalarının bilgilerini paylaşmak ve DDOS atmak yasaktır.</li>
+<li>Discord Hizmet Koşullarını ihlal etmek yasaktır.</li>
+<li>Kendi derecenden yüksek lobilere girmek yasaktır. Girmeniz halinde <strong>oyun içerisinde</strong> <code>-refresh</code> yazarak lobiden ayrılmak zorundasınız. Bu kural sadece Chessbot ile kurulan lobiler için geçerlidir.</li>
+<li>Lobi şifrelerini Discord lobi kanallarında paylaşmak yasaktır.</li>
+<li>Lobi şifrelerini paylaşmak yasaktır (lobiye parti yolu ile girmek de dahil).</li>
+<li>Sunucuya hangi Steam hesabı ile kayıtlıysanız o hesap ile lobiye katılmak zorundasınız.</li>
 </ol>
-<h2 id="ranks">Ranks</h2>
-<p>Lobbies are organized using the following ranks:</p>
+<h2 id="dereceler-ranklar">Dereceler (Ranklar)</h2>
+<p>Lobiler bu derecelere göre belirlenir:</p>
 <ul>
-<li>Beginner: <code>Unknown</code>+</li>
-<li>Intermediate: <code>Bishop-1</code>+</li>
-<li>Advanced: <code>Bishop-6</code>+</li>
-<li>Expert: <code>Rook-1</code>+</li>
-<li>Master: <code>Rook-5</code>+</li>
+<li>Beginner (Başlangıç Düzeyi): <code>Unknown</code>+ (Bilinmeyen+)</li>
+<li>Intermediate (Orta Düzey): <code>Bishop-1</code>+ (Fil-1+)</li>
+<li>Advanced (Gelişmiş): <code>Bishop-6</code>+ (Fil-6+)</li>
+<li>Expert (Uzman): <code>Rook-1</code>+ (Kale-1+)</li>
+<li>Master (Usta): <code>Rook-5</code>+ (Kale-5+)</li>
 </ul>
-<h3 id="checking-ranks">Checking Ranks</h3>
-<p>Use these in <code>#chessbot-commands</code>, <strong>NOT</strong> in <code>#help-desk</code>.</p>
+<h3 id="derece-kontrolü">Derece Kontrolü</h3>
+<p>Bu komutları <code>#chessbot-commands</code> kanalında kullanın, <code>#help-desk</code> kanalında <strong>değil</strong>.</p>
 <ul>
-<li>Check and update your rank (use this to get new roles when you rank up): <code>!rank</code></li>
-<li>Check someone else’s rank (without <code>[]</code>): <code>!rank [@DiscordName#0000]</code></li>
+<li>Dereceyi kontrol etme ve güncelleme komutu (bu komutu derece atlayınca yeni roller almak için kullanın): <code>!rank</code></li>
+<li>Başkalarının derecelerini kontrol etme komutu (<code>[]</code> olmadan): <code>!rank [@DiscordKullanıcıAdı#0000]</code></li>
 </ul>
-<h2 id="reporting-players">Reporting Players</h2>
-<p>If you are in danger of demotion from a tier (e.g. You are <code>Bishop-1</code>, and playing in <code>#intermediate-lobbies-eue</code>) you should wait for your game to complete and your rank to update before you join another game in your current league. If your rank updates before you join your next game, but after you join the Chessbot lobby, and you are below the minimum rank for the league while in game (e.g. you lost your previous game and are now <code>Knight-9</code>) you must forfeit the game (by typing <code>-refresh</code> in game,  <strong>NOT</strong> in Discord) or be banned from this server.</p>
-<p>Players that experience this in your games, please consider not caring about a one-rank difference in your game. It doesn’t have a serious impact, and is often an honest mistake. Making a big deal of these instances is seldom beneficial for anyone. This is not an invitation to do this, however, and we do not condone this behavior. We will be handing out bans for this, so please be careful.</p>
-<p>If a player refuses to forfeit (<code>-refresh</code> in game,  <strong>NOT</strong> in Discord): Post a screenshot, their Steam Profile URL, and the final Chessbot Lobby message (after the host uses <code>!start</code>) to <code>#player-reports</code>. If you don’t provide all three of these things, the report won’t be considered. This does <strong>NOT</strong> apply to lobbies without Chessbot (e.g. <code>#intermediate-lobbies-no-bot</code>); we don’t enforce ranks in lobbies without Chessbot. If you need to report a player for some other reason, explain the reason in <code>#player-reports</code>.</p>
-<h2 id="finding-joining-and-hosting-games">Finding, Joining, and Hosting Games</h2>
-<p>Games are arranged through Chessbot. You must enable direct messages from this server to interact with Chessbot. Chessbot will whisper you the password for the lobby on Discord. Copy the password &gt; Open Auto Chess &gt; Lobby List &gt; Find Private Lobbies &gt; Paste Password &gt; Search &gt; Join Lobby. If no lobby shows up, the host may not have created it yet. Click the <code>refresh</code> button in the top-right of the page to re-search for the lobby. People can host lobbies in any region. Look at the region before starting in game to see if it’s acceptable to you. Use the following commands in <code>#[rank]-lobbies channels</code> <strong>ONLY</strong> (e.g. <code>#master-lobbies</code>): (without <code>[]</code>)</p>
+<h2 id="oyuncu-rapor-etme">Oyuncu Rapor Etme</h2>
+<p>Eğer bulunduğunuz derece güncel değilse (mesela <code>Knight(At)-9</code>'sunuz ve hala <code>Intermediate</code> (Orta Düzey) lobilere girebiliyorsanız) derecenizin yenilenmesini bekleyip yeni bir oyuna başlamadan önce derecenizi güncellemelisiniz. Eğer derecenizi güncelledikten sonra herhangi bir lobiye girerseniz ve dereceniz lobi limitinin altında ise (<code>Bishop-1</code>(Fil-1)+ lobisindesiniz fakat sizin dereceniz bu limite yetmiyorsa) <strong>oyun içinde</strong> <code>-refresh</code> yazarak lobiden ayrılmalısınız. Lobiden ayrılmamanız halinde sunucudan yasaklanırsınız.</p>
+<p>Oyuncular sizin derecelerinizi etkilese de, aranızdaki 1 derece fark sizi etkilemiycektir. Genellikle böyle durumlar bazı hatalardan dolayı meydana gelir. Bunu büyütüp olay çıkarmanın manası yok. Tabi bu durum bunu yapabileceğiniz anlamına gelmez. Bu yüzden lütfen dikkatli olun.</p>
+<p>Eğer bir oyuncu kuralları çiğnemesi halinde <code>-refresh</code> yazarak lobiden ayrılmıyor ise: Bunu ekran görüntüsünü, kuralları çiğneyen oyuncunun Steam Profilinin URL’sini ve lobi kurulduktan sonra ChessBot Lobi mesajının (lobi kurucusunun <code>!start</code> yazdıktan sonra çıkan mesajın) ekran görüntüsünü <code>#player-reports</code> (#oyuncu-raporları) yazı kanalına atın. Eğer bu üç bilginin tamamını karşılayamıyorsanız ne yazık ki raporunuz geçerli sayılmayacaktır. Bu durum ChessBot’un çalışmadığı yazı kanallarında (<code>#intermediate-lobbies-no-bot</code> vb.) kurulan lobiler için <strong>geçerli değildir</strong>. ChessBot ile kurulmayan lobilerdeki dereceler ile ilgilenmiyoruz. Eğer bir oyuncuyu farklı bir nedenden dolayı raporlamak istiyorsanız, raporlamak istediğiniz oyunucuyu ve nedenini <code>#player-reports</code> (#oyuncu-raporları) yazı kanalında belirtebilirsiniz.</p>
+<h2 id="lobi-bulma-katılma-ve-kurma">Lobi Bulma, Katılma ve Kurma</h2>
+<p>Lobiler ChessBot ile düzenlenir. ChessBot ile etkileşime girebilmek için DM’lerinizi (direkt mesajlarınızı) herkese açık hale getirmelisiniz veya buna eşdeğer bir ayar yapmalısnız. ChessBot size katıldığınız lobinin şifresini DM’den atacaktır. Şifreyi kopyalayın &gt; Auto Chess’i açın &gt; Lobby List (Lobi Listesi) &gt; Find Private Lobbies (Özel Lobi Bul) &gt; Şifreyi yapıştır &gt; Search (Ara) &gt; Join Lobby (Lobiye Katıl). Eğer herhangi bir lobi gözükmüyorsa, lobi henüz kurulmamış olabilir. Sağ üst köşedeki <code>refresh</code> (Yenile) butonuna tıklayarak lobileri yenileyebilirsiniz. Oyuncular lobileri herhangi bir bölgeden kurabilir, bu yüzden lobiye katılmadan önce lobinin bölgesine bakarak sizin için uygun olup olmadığını kontrol etmeyi unutmayın.  Aşağıdaki komutları <strong>sadece</strong>  <code>#[rank(derece)]-lobbies</code> (lobi kanalları)'nda kullanın (<code>#master-lobbies</code> gibi): (<code>[]</code> olmadan)</p>
 <ul>
-<li><code>!list</code> to show available lobbies.</li>
-<li><code>!join</code> to join a lobby if you’re in a <code>#[rank]-lobbies-[region]</code> channel (e.g. <code>#intermediate-lobbies-naw</code>).</li>
-<li><code>!join [region]</code> (without <code>[]</code>) to join a lobby if you’re in a non-<code>[region]</code> channel (e.g. <code>#beginner-lobbies</code>).
+<li><code>!list</code> kanaldaki mevcut lobileri görmek için.</li>
+<li><code>!join</code> bir <code>#[rank(derece)]-lobbies[region(bölge)]</code> kanalındayken lobilere katılmak için (<code>#intermediate-lobbies-naw</code> vb.).</li>
+<li><code>!join [region(bölge)]</code> (<code>[]</code> olmadan) bölgesi olmayan yazı kanallarında lobilere katılmak için (<code>#beginner-lobbies</code> vb.).
 <ul>
-<li>Regions are: <code>NA</code>, <code>SA</code>, <code>EUE</code>, <code>EUW</code>, <code>RU</code>, <code>SEA</code>, and <code>OCE</code></li>
+<li>Bölgeler: <code>NA</code> (Kuzey Amerika), <code>SA</code> (Güney Avustralya), <code>EUE</code> (Doğu Avrupa), <code>EUW</code> (Batı Avrupa), <code>RU</code> (Rusya), <code>SEA</code>, ve <code>OCE</code></li>
 </ul>
 </li>
-<li><code>!join [@DiscordName#0000]</code> (without <code>[]</code>) to join a specific players lobby.</li>
-<li><code>!leave</code> to leave a lobby.</li>
-<li><code>!lobby [@DiscordName#0000]</code> (without <code>[]</code>) to list the players in a players lobby.</li>
-<li><code>!host</code> to host a lobby if you’re in a <code>#[rank]-lobbies-[region]</code> channel (e.g. <code>#intermediate-lobbies-naw</code>).</li>
-<li><code>!host [region]</code> (without <code>[]</code>) if you’re in a non-<code>[region]</code> channel (e.g. <code>#beginner-lobbies</code>).</li>
-<li><code>!host [region] [rank-x]</code> (without <code>[]</code>. <code>rank-x</code> must be <code>your-rank</code> - 2 or lower) to restrict the rank of your lobby.</li>
-<li><code>!lobby</code> to list the players in your lobby.</li>
-<li><code>!kick [@DiscordName#0000]</code> (without <code>[]</code>) to kick a player from your lobby.</li>
-<li><code>!start</code> to start your game and close your lobby when the lobby fills (8/8 players). Please wait until everybody has loaded in before starting in game.</li>
-<li><code>!cancel</code> to close your lobby.</li>
+<li><code>!join [@DiscordKulllanıcıAdı#0000]</code> (<code>[]</code> olmadan) özellikle bir oyuncunun lobisine katılmak için.</li>
+<li><code>!leave</code> lobiden ayrılmak için.</li>
+<li><code>!lobby [@DiscordKullanıcıAdı#0000]</code> (<code>[]</code> olmadan) oyuncuların lobilerindeki oyuncuları görmek için.</li>
+<li><code>!host</code> bir <code>#[rank(derece)]-lobbies[region(bölge)]</code> kanalındayken lobi kurmak için (<code>#intermediate-lobbies-naw</code> vb.).</li>
+<li><code>!host [region]</code> (<code>[]</code> olmadan) bölgesi olmayan yazı kanallarında lobi kurmak içn (<code>#beginner-lobbies</code> vb.).</li>
+<li><code>!host [region(bölge)] [rank(derece)-x]</code> lobi derece liminiti belirlemek için (<code>[]</code> olmadan. <code>rank(derece)-x</code> sizin derecenizden -2 seviye düşük olmalıdır).</li>
+<li><code>!lobby</code> lobinizdeki oyuncuları görmek için.</li>
+<li><code>!kick [@DiscordKullanıcıAdı#0000]</code> (<code>[]</code> olmadan) lobinizden herhangi bir oyunu atmak için.</li>
+<li><code>!start</code> lobiniz tamamen dolduğunda oyunu başlatıp lobiyi kapatmak için (8/8 oyuncu). Lütfen kullanmadan önce herkesin bağlandığından emin olun.</li>
+<li><code>!cancel</code> lobinizi iptal etmek için.</li>
 </ul>
-<h2 id="get-started">Get Started</h2>
-<p>Please <strong>read everything</strong> above this so you understand how to interact with this server. It will save you and the staff time and questions. Thank you. You can repeat the steps below to link a multiple Steam accounts to Discord, or to switch your active Steam account (you must use the same Steam account in-game as when you join/host a lobby in Discord).</p>
+<h2 id="başlangıç">Başlangıç</h2>
+<p>Lütfen başlamadan önce yukarıda yazan <strong>her şeyi</strong> okuduğunuzdan emin olun, bu sayede sunucu ile nasıl etkileşimde bulunabilceğinizi öğrenip yetkililerin vaktini boşa harcamamış olursunuz, teşekkürler. Sunucuya kaydolmak için veya ikinci bir Steam hesabı bağlamak için aşağıdaki adımları uygulayabilirsiniz (oyun içerisinde lobiye katıldığınız veya lobiyi kurduğunuz Steam hesabıyla oynamalısınız).</p>
 <ol>
 <li>
-<p>Make sure you’re <strong>NOT</strong> set to invisible. Go to User Settings.<br>
+<p>Görünmez <strong>olmadığınızdan</strong> emin olun. Kullanıcı Ayarlarına tıklayın.<br>
 <img src="https://lh3.googleusercontent.com/BKWZi8LTdT8v6fdAQiwyLtOuR_jFj5CBjvxObViUGdM7F4jxnlGH3CxAfKgkP075SDZFcx0FvYY" alt="enter image description here"></p>
 </li>
 <li>
-<p>Go to Connections. Click the Steam icon.<br>
+<p>Bağlantılara gidin ve Steam ikonuna tıklayın.<br>
 <img src="https://lh3.googleusercontent.com/0BHECBR5G8obQXgH_J1IjqotC0jAQW2sXPBsFlngSYPPS4Pu_3LlAikr0Ls0WK8ymdb7ZbLhTkE" alt="enter image description here"></p>
 </li>
 <li>
-<p>Click sign in. If you haven’t signed into Steam in your browser, do so.<br>
+<p>Oturum Aç’a tıklayın.<br>
 <img src="https://lh3.googleusercontent.com/Kc5SWqhe_lUFGBwGMVxmi7g3YWbHH1rouljLqFYFy0GyRZq-ECmLzWCPYVErm5gCFsQjHw6K54M" alt="enter image description here"></p>
 </li>
 <li>
-<p>Make sure Steam appears in your list of Discord Connections.<br>
+<p>Discord’daki Steam bağlantısının herkese açık olduğundan emin olun.<br>
 <img src="https://lh3.googleusercontent.com/XnuTe3xZWuJ0P9em1hM6a1ne9QsAFjFR_QEfi5ZVSOupezvNTh0ef5r58LsxJPCxskRoDyLJods" alt="enter image description here"></p>
 </li>
 <li>
-<p>Click this link: <a href="http://autochessbot.vinthian.com" target="_blank">autochessbot.vinthian.com</a>. Make sure this shows your Discord is connected to Steam, and the Discord and Steam usernames are correct. Click Authorize.<br>
+<p>Bu linke tıklayın: <a href="http://autochessbot.vinthian.com" target="_blank">autochessbot.vinthian.com</a>. Steam ve Discord hesaplarının doğru olduğuna emin olduktan sonra Onayla’ya tıklayın.<br>
 <img src="https://lh3.googleusercontent.com/08ZHOcSVKHEjHixMc53zFEc-zsw9fckQgiyG_T6dnNpot8F3vjmseO5Hoeiye8HwmudNYGawLCY" alt="enter image description here"></p>
 </li>
 <li>
-<p>Make sure it shows the correct <code>Steam64ID</code> and Steam Username. Click <code>Link [Steam64ID]</code>.<br>
+<p>Doğru <code>Steam64ID</code>'si olduğuna emin olun ve  hesabınıza tıklayın.<br>
 <img src="https://lh3.googleusercontent.com/W2TnP6mdOc0P_jULKu-wQZvYr8-bNwszT-lY19XgFT5p5C19jBZOjB3yVd0G6Tj-cchs4ufHogE" alt="enter image description here"></p>
 </li>
 <li>
-<p>You’re verified! You should be able to see some new channels in Discord (on the left. e.g. <code>#beginner-lobbies</code>). If something went wrong: clear your browser cache, make sure you are logged into the correct Discord account (name and number: <code>Name#0000</code>), make sure you aren’t set to invisible on Discord, and try again. If that doesn’t work, visit <code>#help-desk</code>.<br>
+<p>Tebrikler, onaylandınız! Artık Discord’da yeni kanallar görebilirsiniz (sol tarafta <code>#beginner-lobbies</code> (Başlangıç Lobileri) vb.). Eğer bişeyler yanlış gittiyse, aynı işlemleri tekrardan uygulayın ve bunu yaparken doğru Discord hesabını eşleştirdiğinize ve Discord hesabınızın görünmez olmadığına emin olun. Eğer bunlar da işe yaramazsa <code>#help-desk</code> (#yardım-masası) kanalından destek alabilirsiniz.<br>
 <img src="https://lh3.googleusercontent.com/1uOA1tSQgY02_in_NJZ0ymz64tDwu-mlhHWaqUkHVlt37S-lEx80g7y_hu_9LHoRt0I9_g1Yoa8" alt="enter image description here"></p>
 </li>
 <li>
-<p>In <code>#chessbot-commands</code> use: <code>!updateroles</code></p>
+<p><code>#chessbot-commands</code> kanalında  <code>!updateroles</code> komutunu kullanarak rollerinizi güncelleyebilirsiniz.</p>
 </li>
 <li>
-<p>Go to<code>#league-region</code> and react to the post get tagged with a region. You can remove your reaction if you don’t like the notifications.</p>
+<p><code>#league-region</code> (#lobi-bölgesi) kanalındaki yazıya bulunduğunuz bölgenin emojisi ile tepki vererek herhangi bir lobi kurulduğunda bundan bildirim ile haberdar olabilirsiniz. Eğer bundan rahatsız oluyorsanız, tepkinizi geri alabilirsiniz.</p>
 </li>
 <li>
-<p>Go to a <code>#[rank]-lobbies</code> channel (e.g. <code>#beginner-lobbies</code>, <code>#intermediate-lobbies-eue</code> , etc) and have fun!</p>
+<p>İyi Eğlenceler!</p>
 </li>
 </ol>
+<p><strong>Çevirmen Moderatör:</strong> @omrtozd#6320</p>
 </div>
-  </body>
+</body>
+
 </html>
