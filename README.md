@@ -1,10 +1,10 @@
-# readme-en
+# readme-tr
 
 ## Before starting
 
 1. Install [Node.js](https://nodejs.org/en/) and [Git SCM](https://git-scm.com/).
 2. Clone this repository:
-   `git clone https://github.com/liquidqihl/readme`
+   `git clone https://github.com/liquidqihl/readme-tr`
 3. Go to `readme` directory.
 4. Open terminal. Make sure your terminal current path is `readme` directory.
 5. Install dependencies:
