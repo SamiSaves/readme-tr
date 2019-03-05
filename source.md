@@ -16,11 +16,12 @@ Liquid.qihl'ye hoşgeldiniz! Bu döküman sunucu ile etkileşimde bulunabilmeniz
 Kuralları ihlal etmek **BAN** sebebidir.
 
 1. Hakaret etmek, izinsiz başkalarının bilgilerini paylaşmak ve DDOS atmak yasaktır.
-2. Discord Hizmet Koşullarını ihlal etmek yasaktır.
-3. Kendi derecenden yüksek lobilere girmek yasaktır. Girmeniz halinde **oyun içerisinde** `-refresh` yazarak lobiden ayrılmak zorundasınız. Bu kural sadece Chessbot ile kurulan lobiler için geçerlidir.
-4. Lobi şifrelerini Discord lobi kanallarında paylaşmak yasaktır.
-5. Lobi şifrelerini paylaşmak yasaktır (lobiye parti yolu ile girmek de dahil).
-6. Sunucuya hangi Steam hesabı ile kayıtlıysanız o hesap ile lobiye katılmak zorundasınız.
+2. Lütfen kin ve nefret beslemeyin, ırkçılık yapmayın. Ponçik olun.
+3. Discord Hizmet Koşullarını ihlal etmek yasaktır (hile yapmak dahil).
+4. Kendi derecenden yüksek lobilere girmek yasaktır. Girmeniz halinde **oyun içerisinde** `-refresh` yazarak lobiden ayrılmak zorundasınız. Bu kural sadece Chessbot ile kurulan lobiler için geçerlidir.
+5. Lobi şifrelerini Discord lobi kanallarında paylaşmak yasaktır.
+6. Lobi şifrelerini paylaşmak yasaktır (lobiye parti yolu ile girmek de dahil).
+7. Sunucuya hangi Steam hesabı ile kayıtlıysanız o hesap ile lobiye katılmak zorundasınız.
 
 ## Dereceler (Ranklar)
 Lobiler bu derecelere göre belirlenir:
@@ -30,6 +31,7 @@ Lobiler bu derecelere göre belirlenir:
 - Advanced (Gelişmiş): `Bishop-6`+ (Fil-6+)
 - Expert (Uzman): `Rook-1`+ (Kale-1+)
 - Master (Usta): `Rook-5`+ (Kale-5+)
+- Royalty (Kraliyet): `King`+ (Kral+)
 
 ### Derece Kontrolü
 Bu komutları `#chessbot-commands` kanalında kullanın, `#help-desk` kanalında **değil**.
@@ -68,7 +70,7 @@ Lobiler ChessBot ile düzenlenir. ChessBot ile etkileşime girebilmek için DM'l
 ## Başlangıç
 Lütfen başlamadan önce yukarıda yazan **her şeyi** okuduğunuzdan emin olun, bu sayede sunucu ile nasıl etkileşimde bulunabilceğinizi öğrenip yetkililerin vaktini boşa harcamamış olursunuz, teşekkürler. Sunucuya kaydolmak için veya ikinci bir Steam hesabı bağlamak için aşağıdaki adımları uygulayabilirsiniz (oyun içerisinde lobiye katıldığınız veya lobiyi kurduğunuz Steam hesabıyla oynamalısınız).
  
-1. Görünmez **olmadığınızdan** emin olun. Kullanıcı Ayarlarına tıklayın.
+1. Kaydolmadan önce en az 5 maç oynayarak belli bir dereceye sahip olmanız gerek. Dereceniz olmadan bot ile etkileşime giremezsiniz, kısacası sunucuya kaydolamazsınız. Görünmez **olmadığınızdan** emin olun. Kullanıcı Ayarlarına tıklayın.
 
 ![enter image description here](https://i.ibb.co/19358Cc/Screenshot-9.png)
 
