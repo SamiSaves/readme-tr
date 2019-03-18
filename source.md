@@ -11,6 +11,7 @@ Liquid.qihl'ye hoşgeldiniz! Bu döküman sunucu ile etkileşimde bulunabilmeniz
 3. [Oyuncu Rapor Etme](#oyuncu-rapor-etme)  
 4. [Lobi Bulma, Katılma ve Kurma](#lobi-bulma-katılma-ve-kurma)  
 5. [Başlangıç](#başlangıç)
+6. [Onu Bunu Şunu Yaptım Ama Hala Sorun Yaşıyorum](#onu-bunu-şunu-yaptım-ama-hala-sorun-yaşıyorum)
 
 ## Kurallar
 Kuralları ihlal etmek **BAN** sebebidir.
@@ -101,5 +102,13 @@ Lütfen başlamadan önce yukarıda yazan **her şeyi** okuduğunuzdan emin olun
 8. `#chessbot-commands` kanalında  `!updateroles` komutunu kullanarak rollerinizi güncelleyebilirsiniz.
     
 9. İyi Eğlenceler!
+
+## Onu Bunu Şunu Yaptım Ama Hala Sorun Yaşıyorum
+Bak kardeşim ikimiz de biliyoruz ki üstte yazan herşeyi yapmadın, yapsan sorun yaşamazsın çünkü. Ama ben senin için bi'tekrar özet geçiyim.
+
+- Kaydolmadan önce 5 maç gir ki rankın belirlensin, rankın yoksa nasıl sana yetki verelim.
+- Discord'da bağladığın Steam hesabını herkese açık yap, yap ki bot hesabını görebilsin.
+- Şimdi botu entegre etmek için tarayıcıya yönlendiriyo ya seni kardeşim, he işte orada dur hele bi'kontrol et. İnternette açık kalan senin Discord hesabın mı yoksa başka Discord hesabı mı?
+- Şimdi gelip deme bana hepsini yaptım hala olmuyor, yaz hele bi !updateroles rankını görelim.
 
 **Çevirmen Moderatör:** @omrtozd#6320
