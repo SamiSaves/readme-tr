@@ -95,7 +95,7 @@ Lütfen başlamadan önce yukarıda yazan **her şeyi** okuduğunuzdan emin olun
 
 ![enter image description here](https://i.ibb.co/kX2Jxcq/Screenshot-4.png)
 
-7. Tebrikler, onaylandınız! YOKSA ONAYLANMADINIZ MI? Onaylandınız fakat ben hissediyorum ki bir dahaki maddeyi es geçiceksiniz ve #help-desk kanalına "Bağlanamıyorum yardım edin" yazcaksınız. Bu yüzden 8. maddeyi uygulamayı unutmayın. Artık Discord'da yeni kanallar görebilirsiniz (sol tarafta `#beginner-lobbies` (Başlangıç Lobileri) vb.). Eğer bişeyler yanlış gittiyse, aynı işlemleri tekrardan uygulayın ve bunu yaparken doğru Discord hesabını eşleştirdiğinize ve Discord hesabınızın görünmez olmadığına emin olun. Eğer bunlar da işe yaramazsa `#help-desk` (#yardım-masası) kanalından destek alabilirsiniz.
+7. Tebrikler, onaylandınız! **YOKSA ONAYLANMADINIZ MI?** Onaylandınız fakat ben hissediyorum ki bir dahaki maddeyi es geçiceksiniz ve #help-desk kanalına "Bağlanamıyorum yardım edin" yazcaksınız. Bu yüzden 8. maddeyi uygulamayı unutmayın. Artık Discord'da yeni kanallar görebilirsiniz (sol tarafta `#beginner-lobbies` (Başlangıç Lobileri) vb.). Eğer bişeyler yanlış gittiyse, aynı işlemleri tekrardan uygulayın ve bunu yaparken doğru Discord hesabını eşleştirdiğinize ve Discord hesabınızın görünmez olmadığına emin olun. Eğer bunlar da işe yaramazsa `#help-desk` (#yardım-masası) kanalından destek alabilirsiniz.
 
 ![enter image description here](https://i.ibb.co/zH1zWnn/Screenshot-5.png)
 
