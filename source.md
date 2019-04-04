@@ -35,11 +35,10 @@ Lobiler bu derecelere göre belirlenir:
 - Royalty (Kraliyet): `King`+ (Kral+)
 
 ### Derece Kontrolü
-Bu komutları `#chessbot-commands` kanalında kullanın, `#help-desk` kanalında **değil**.
+- Onaylanmak veya oyun içi rankınızı güncellemek için `ChessBot1#3889`'a DM (Direkt Mesaj, fısıldama veya her ne demek istiyorsan) üzerinden `!r` yazabilirsiniz.  
+- ChessBot size güncel rankınızı ve sunucu içi rolünüzü DM atacaktır. Tabi DM ayarlarınızın herkese açık halde olduğundan emin olun.
+- Eğer Chessbot'u bulamadıysanız sunucuda ekranın sağ üst köşesinden ulaşabilirsiniz. DM atmak için de bota sağ tıklayıp `Mesaj` kısmına bakabilirsiniz hani.
 
-- Dereceyi kontrol etme ve güncelleme komutu (bu komutu derece atlayınca yeni roller almak için kullanın): `!rank`
-- Başkalarının derecelerini kontrol etme komutu (`[]` olmadan): `!rank [@DiscordKullanıcıAdı#0000]` 
-             
 ## Oyuncu Rapor Etme
 
 Eğer bulunduğunuz derece güncel değilse (mesela `Knight(At)-9`'sunuz ve hala `Intermediate` (Orta Düzey) lobilere girebiliyorsanız) derecenizin yenilenmesini bekleyip yeni bir oyuna başlamadan önce derecenizi güncellemelisiniz. Eğer derecenizi güncelledikten sonra herhangi bir lobiye girerseniz ve dereceniz lobi limitinin altında ise (`Bishop-1`(Fil-1)+ lobisindesiniz fakat sizin dereceniz bu limite yetmiyorsa) **oyun içinde** `-refresh` yazarak lobiden ayrılmalısınız. Lobiden ayrılmamanız halinde sunucudan yasaklanırsınız.
