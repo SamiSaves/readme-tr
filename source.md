@@ -98,8 +98,11 @@ Lütfen başlamadan önce yukarıda yazan **her şeyi** okuduğunuzdan emin olun
 
 ![enter image description here](https://i.ibb.co/zH1zWnn/Screenshot-5.png)
 
-8. `#chessbot-commands` kanalında  `!updateroles` komutunu kullanarak rollerinizi güncelleyebilirsiniz.
-    
+8.
+- Onaylanmak veya oyun içi rankınızı güncellemek için `ChessBot1#3889`'a DM (Direkt Mesaj, fısıldama veya her ne demek istiyorsan) üzerinden `!r` yazabilirsiniz.  
+- ChessBot size güncel rankınızı ve sunucu içi rolünüzü DM atacaktır. Tabi DM ayarlarınızın herkese açık halde olduğundan emin olun.
+- Eğer Chessbot'u bulamadıysanız sunucuda ekranın sağ üst köşesinden ulaşabilirsiniz. DM atmak için de bota sağ tıklayıp `Mesaj` kısmına bakabilirsiniz hani.
+
 9. İyi Eğlenceler!
 
 ## Onu Bunu Şunu Yaptım Ama Hala Sorun Yaşıyorum
