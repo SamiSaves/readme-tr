@@ -108,9 +108,12 @@ Lütfen başlamadan önce yukarıda yazan **her şeyi** okuduğunuzdan emin olun
 ## Onu Bunu Şunu Yaptım Ama Hala Sorun Yaşıyorum
 Bak kardeşim ikimiz de biliyoruz ki üstte yazan herşeyi yapmadın, yapsan sorun yaşamazsın çünkü. Ama ben senin için bi'tekrar özet geçiyim.
 
-- Kaydolmadan önce 5 maç gir ki rankın belirlensin, rankın yoksa nasıl sana yetki verelim.
-- Discord'da bağladığın Steam hesabını herkese açık yap, yap ki bot hesabını görebilsin.
-- Şimdi botu entegre etmek için tarayıcıya yönlendiriyo ya seni kardeşim, he işte orada dur hele bi'kontrol et. İnternette açık kalan senin Discord hesabın mı yoksa başka Discord hesabı mı?
-- Şimdi gelip deme bana hepsini yaptım hala olmuyor, yaz hele bi !updateroles rankını görelim.
+1. Kaydolmadan önce 5 maç gir ki rankın belirlensin, rankın yoksa nasıl sana yetki verelim.
+2. Discord'da bağladığın Steam hesabını herkese açık yap, yap ki bot hesabını görebilsin.
+3. Şimdi botu entegre etmek için tarayıcıya yönlendiriyo ya seni kardeşim, he işte orada dur hele bi'kontrol et. İnternette açık kalan senin Discord hesabın mı yoksa başka Discord hesabı mı?
+4. Şimdi gelip deme bana hepsini yaptım hala olmuyor;
+- Onaylanmak veya oyun içi rankınızı güncellemek için `ChessBot1#3889`'a DM (Direkt Mesaj, fısıldama veya her ne demek istiyorsan) üzerinden `!r` yazabilirsiniz.  
+- ChessBot size güncel rankınızı ve sunucu içi rolünüzü DM atacaktır. Tabi DM ayarlarınızın herkese açık halde olduğundan emin olun.
+- Eğer Chessbot'u bulamadıysanız sunucuda ekranın sağ üst köşesinden ulaşabilirsiniz. DM atmak için de bota sağ tıklayıp `Mesaj` kısmına bakabilirsiniz hani.
 
 **Çevirmen Moderatör:** @omrtozd#6320
